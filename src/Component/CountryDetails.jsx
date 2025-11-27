@@ -3,6 +3,7 @@ import { GetCountry } from '../Api/ApiData';
 import { useParams } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import Card from './Card';
+import LoadingImg from "/src/assets/loading-img.jpg"
 const CountryDetails = () => {
   const [ispending, startTransition] = useTransition();
   const [country, setCountry] = useState();
@@ -22,7 +23,7 @@ const CountryDetails = () => {
     });
   },[Params.id]);
 
-  if (ispending ) return <img  className='loadingImg'  src="/src/assets/loading-img.jpg" alt="" />
+  if (ispending ) return <img  className='loadingImg'  src={LoadingImg} alt="" />
 
   return (
     <>
