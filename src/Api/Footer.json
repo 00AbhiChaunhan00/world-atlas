@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "MdPlace",
+    "title": "Find us",
+    "details": "Meerut,Uttar Pradesh"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call us",
+    "details": "987654321"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail us",
+    "details": "abhi72176458@gmail.com"
+  }
+]
