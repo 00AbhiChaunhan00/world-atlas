@@ -1,16 +1,50 @@
-# React + Vite
+# 🌍 World Atlas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React web application to explore countries of the world with key facts, flags, and details.  
+This project fetches live data from APIs and presents it in a clean, user-friendly interface.
 
-Currently, two official plugins are available:
+[Live Demo](https://world-atlas-00.vercel.app/)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse all countries with flag, name, capital, region, and population
+- Responsive design for desktop and mobile
+- Search and filter countries (optional / can be added)
+- Detailed view for each country (can be extended)
+- Live deployment on Vercel
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- **Frontend:** React, JavaScript, HTML5, CSS5  
+- **Styling:** CSS5 (no frameworks)  
+- **API:** REST Countries API (or similar)  
+- **Deployment:** Vercel  
+
+---
+
+## 🧠 Topics Covered / Skills Demonstrated
+
+This project showcases the following React and web development concepts:
+
+- **React Fundamentals:** Components, props, state management
+- **Routing:** React Router for navigating between pages
+- **CRUD Operations:** Fetching and displaying dynamic data from APIs
+- **Axios / Fetch API:** Making HTTP requests to REST APIs
+- **Context API:** Managing global state across components
+- **Conditional Rendering:** Dynamic UI based on user interactions
+- **Responsive Design:** Mobile-first approach with CSS5
+- **Environment Variables:** Securely storing API keys or config
+- **Deployment:** Deploying a React app to Vercel
+- **Error Handling:** Handling API errors and loading states
+- **Project Structure:** Organizing React components, assets, and routes
+
+This demonstrates a strong understanding of modern React development practices and real-world app architecture.
+
+---
+# 📈 Deployment
+This project is deployed on Vercel:
+https://world-atlas-00.vercel.app/
