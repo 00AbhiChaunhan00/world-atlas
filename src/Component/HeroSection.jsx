@@ -1,6 +1,7 @@
 // import { use } from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import Img from '/src/Component/world.png'
 export const HeroSection = () => {
   const navigate=useNavigate()
   function handleClick(){
@@ -24,7 +25,7 @@ export const HeroSection = () => {
         </div>
         <div className="hero-image">
           <img
-            src="/src/Component/world.png"
+            src={Img}
             alt="world is beauty"
             className="banner-image"
           />
